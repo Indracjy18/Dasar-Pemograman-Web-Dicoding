@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Quicksand:wght@600;700&family=Roboto:wght@100&display=swap");
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  /* Seluruh elemen akan kita terapkan properti box-sizing: border-boxagar element-element tersebut dapat memiliki ukuran dimensi yang sama meskipun memiliki ukuran padding, margin, dan border. Tambahkan kode berikut pada app.css.*/
+}
+
+body {
+  height: 100vh;
+  font-family: "Quicksand", sans-serif;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: #b799ff;
+}
+.navbar-container {
+  display: flex;
+  max-width: 1600px;
+  width: 100%;
+  justify-content: space-between;
+  padding-block: 1rem;
+  z-index: 999;
+  background-color: #aee2ff;
+}
+.logo {
+  background-color: #acbcff;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  box-shadow: 2px 2px 2px 2px #aee2ff;
+}
+
+.logo img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.navigasi-list ul {
+  display: flex;
+  margin: 0;
+  justify-content: space-between;
+  gap: 2rem 1rem;
+}
+
+.navigasi-list li {
+  list-style-type: none;
+}
+.navigasi-list li a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #e6fffd;
+  border-radius: 820px;
+  transition: all 0.2 ease-in-out;
+}
+
+.navigasi-list li:hover a {
+  background-color: #e6fffd;
+  color: #aee2ff;
+}
+
+.kotak {
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+  padding: 2rem 4rem;
+  display: flex;
+  background-color: #aee2ff;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 20px 20px;
+}
+.content {
+  width: 250;
+  height: 250px;
+  background-color: #b799ff;
+  border-radius: 30px 30px;
+  box-shadow: 4px 6px 5px 10px #666666;
+}
+.content h2 {
+  color: #aee2ff;
+  text-align: center;
+}
+.center {
+  text-align: center;
+  font-style: italic;
+  color: #e6fffd;
+}
+
+.hobby {
+  display: flex;
+  position: relative;
+  top: 10px;
+  right: 50px;
+}
+aside {
+  widows: 200px;
+  height: 400px;
+
+  margin-top: 30px;
+}
+.profil-card {
+  width: 300px;
+  height: 300px;
+  background-color: #e6fffd;
+  float: right;
+  padding-left: 50px;
+}
+
+table {
+  color: chocolate;
+}
+
+footer {
+  background-color: aqua;
+}
+span {
+  text-align: center;
+}
